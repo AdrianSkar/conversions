@@ -25,3 +25,8 @@ Some Ideas to Discuss
             - Github Projects
         Should we have sprints? 2-week sprints? 
             - Weekly check-in + self managed tasks.
+
+## Links:
+- [Netlify](https://app.netlify.com/sites/conversionanad/)
+- [Front](https://conversionanad.netlify.app/)
+- [Repo](https://github.com/AdrianSkar/conversions)
