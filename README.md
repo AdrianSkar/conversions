@@ -16,12 +16,12 @@ Some Ideas to Discuss
             - HTML, CSS and JS.
         What is the minimum viable product goal?
             - A working conversion tool.
-        Keep the design minimal? Any color preferences? 
+        Keep the design minimal? Any color preferences?
+            - minimal design. 
         Start mobile-first?
             - YES, please.
     Workflow 
         Where will we manage tasks? 
             - Github Projects
-        How can we use GitHub to manage tasks, etc? 
         Should we have sprints? 2-week sprints? 
             - Weekly check-in + self managed tasks.
