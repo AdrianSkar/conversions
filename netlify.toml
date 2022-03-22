@@ -1,0 +1,12 @@
+[build]
+  # the root website directory
+  publish = ""
+  # the build command
+  command = ""
+  functions = "func/"
+  
+[[redirects]]
+  from = "/api/curr_api"
+  to = "/.netlify/functions/curr_api"
+  status = 200
+
