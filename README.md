@@ -34,3 +34,4 @@ Some Ideas to Discuss
 - [Netlify](https://app.netlify.com/sites/conversionanad/)
 - [Front](https://conversionanad.netlify.app/)
 - [Repo](https://github.com/AdrianSkar/conversions)
+- [Exchangerates API](https://exchangeratesapi.io/)
