@@ -32,6 +32,8 @@ Some Ideas to Discuss
 
 ## Links:
 - [Netlify](https://app.netlify.com/sites/conversionanad/)
+- [Notion docs](https://www.notion.so/adrianskar/Netlify-02e4f548ef0746e68642c49ac3a449cd)
 - [Front](https://conversionanad.netlify.app/)
 - [Repo](https://github.com/AdrianSkar/conversions)
 - [Exchangerates API](https://exchangeratesapi.io/)
+
