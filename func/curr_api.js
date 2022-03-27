@@ -1,4 +1,4 @@
-// /.netlify/functions/yep
+// /.netlify/functions/curr_api
 
 exports.handler = function (event, context, callback) {
 	//event - similar to express Request object

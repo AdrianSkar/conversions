@@ -1,1 +1,4 @@
 api.js
+
+# Local Netlify folder
+.netlify
