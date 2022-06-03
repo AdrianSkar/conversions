@@ -16,7 +16,7 @@
 		<h2>Currency converter:</h2>
 		<form action="#">
 			<label for="input-amt">Amount:</label>
-			<input id="input-amt" type="number" limit="100" value="1" required>
+			<input id="input-amt" type="number" limit="100" required>
 			<span>From:</span>
 			<!-- Hardcoded; remove after adding values from JS/api -->
 			<select id="input-base" name="input-base">
@@ -29,6 +29,8 @@
 				<option value="eur">EUR</option>
 				<option value="usd" selected>USD</option>
 			</select>
+			<!-- convert button -->
+			<button id="convert-btn" type="submit">Convert</button>
 		</form>
 		<div id="result">Result:</div>
 	</main>
