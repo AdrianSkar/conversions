@@ -35,5 +35,5 @@ Some Ideas to Discuss
 - [Notion docs](https://www.notion.so/adrianskar/Netlify-02e4f548ef0746e68642c49ac3a449cd)
 - [Front](https://conversionanad.netlify.app/)
 - [Repo](https://github.com/AdrianSkar/conversions)
-- [Alphavantage API](https://www.alphavantage.co/) (500 free reqs per day; 5 per minute)
+- [Alphavantage API](https://www.alphavantage.co/documentation/#currency-exchange) (500 free reqs per day; 5 per minute)
 

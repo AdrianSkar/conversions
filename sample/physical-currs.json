@@ -1,0 +1,630 @@
+[
+  {
+    "curr_code": "AED",
+    "curr_name": "United Arab Emirates Dirham"
+  },
+  {
+    "curr_code": "AFN",
+    "curr_name": "Afghan Afghani"
+  },
+  {
+    "curr_code": "ALL",
+    "curr_name": "Albanian Lek"
+  },
+  {
+    "curr_code": "AMD",
+    "curr_name": "Armenian Dram"
+  },
+  {
+    "curr_code": "ANG",
+    "curr_name": "Netherlands Antillean Guilder"
+  },
+  {
+    "curr_code": "AOA",
+    "curr_name": "Angolan Kwanza"
+  },
+  {
+    "curr_code": "ARS",
+    "curr_name": "Argentine Peso"
+  },
+  {
+    "curr_code": "AUD",
+    "curr_name": "Australian Dollar"
+  },
+  {
+    "curr_code": "AWG",
+    "curr_name": "Aruban Florin"
+  },
+  {
+    "curr_code": "AZN",
+    "curr_name": "Azerbaijani Manat"
+  },
+  {
+    "curr_code": "BAM",
+    "curr_name": "Bosnia-Herzegovina Convertible Mark"
+  },
+  {
+    "curr_code": "BBD",
+    "curr_name": "Barbadian Dollar"
+  },
+  {
+    "curr_code": "BDT",
+    "curr_name": "Bangladeshi Taka"
+  },
+  {
+    "curr_code": "BGN",
+    "curr_name": "Bulgarian Lev"
+  },
+  {
+    "curr_code": "BHD",
+    "curr_name": "Bahraini Dinar"
+  },
+  {
+    "curr_code": "BIF",
+    "curr_name": "Burundian Franc"
+  },
+  {
+    "curr_code": "BMD",
+    "curr_name": "Bermudan Dollar"
+  },
+  {
+    "curr_code": "BND",
+    "curr_name": "Brunei Dollar"
+  },
+  {
+    "curr_code": "BOB",
+    "curr_name": "Bolivian Boliviano"
+  },
+  {
+    "curr_code": "BRL",
+    "curr_name": "Brazilian Real"
+  },
+  {
+    "curr_code": "BSD",
+    "curr_name": "Bahamian Dollar"
+  },
+  {
+    "curr_code": "BTN",
+    "curr_name": "Bhutanese Ngultrum"
+  },
+  {
+    "curr_code": "BWP",
+    "curr_name": "Botswanan Pula"
+  },
+  {
+    "curr_code": "BZD",
+    "curr_name": "Belize Dollar"
+  },
+  {
+    "curr_code": "CAD",
+    "curr_name": "Canadian Dollar"
+  },
+  {
+    "curr_code": "CDF",
+    "curr_name": "Congolese Franc"
+  },
+  {
+    "curr_code": "CHF",
+    "curr_name": "Swiss Franc"
+  },
+  {
+    "curr_code": "CLF",
+    "curr_name": "Chilean Unit of Account UF"
+  },
+  {
+    "curr_code": "CLP",
+    "curr_name": "Chilean Peso"
+  },
+  {
+    "curr_code": "CNH",
+    "curr_name": "Chinese Yuan Offshore"
+  },
+  {
+    "curr_code": "CNY",
+    "curr_name": "Chinese Yuan"
+  },
+  {
+    "curr_code": "COP",
+    "curr_name": "Colombian Peso"
+  },
+  {
+    "curr_code": "CUP",
+    "curr_name": "Cuban Peso"
+  },
+  {
+    "curr_code": "CVE",
+    "curr_name": "Cape Verdean Escudo"
+  },
+  {
+    "curr_code": "CZK",
+    "curr_name": "Czech Republic Koruna"
+  },
+  {
+    "curr_code": "DJF",
+    "curr_name": "Djiboutian Franc"
+  },
+  {
+    "curr_code": "DKK",
+    "curr_name": "Danish Krone"
+  },
+  {
+    "curr_code": "DOP",
+    "curr_name": "Dominican Peso"
+  },
+  {
+    "curr_code": "DZD",
+    "curr_name": "Algerian Dinar"
+  },
+  {
+    "curr_code": "EGP",
+    "curr_name": "Egyptian Pound"
+  },
+  {
+    "curr_code": "ERN",
+    "curr_name": "Eritrean Nakfa"
+  },
+  {
+    "curr_code": "ETB",
+    "curr_name": "Ethiopian Birr"
+  },
+  {
+    "curr_code": "EUR",
+    "curr_name": "Euro"
+  },
+  {
+    "curr_code": "FJD",
+    "curr_name": "Fijian Dollar"
+  },
+  {
+    "curr_code": "FKP",
+    "curr_name": "Falkland Islands Pound"
+  },
+  {
+    "curr_code": "GBP",
+    "curr_name": "British Pound Sterling"
+  },
+  {
+    "curr_code": "GEL",
+    "curr_name": "Georgian Lari"
+  },
+  {
+    "curr_code": "GHS",
+    "curr_name": "Ghanaian Cedi"
+  },
+  {
+    "curr_code": "GIP",
+    "curr_name": "Gibraltar Pound"
+  },
+  {
+    "curr_code": "GMD",
+    "curr_name": "Gambian Dalasi"
+  },
+  {
+    "curr_code": "GNF",
+    "curr_name": "Guinean Franc"
+  },
+  {
+    "curr_code": "GTQ",
+    "curr_name": "Guatemalan Quetzal"
+  },
+  {
+    "curr_code": "GYD",
+    "curr_name": "Guyanaese Dollar"
+  },
+  {
+    "curr_code": "HKD",
+    "curr_name": "Hong Kong Dollar"
+  },
+  {
+    "curr_code": "HNL",
+    "curr_name": "Honduran Lempira"
+  },
+  {
+    "curr_code": "HRK",
+    "curr_name": "Croatian Kuna"
+  },
+  {
+    "curr_code": "HTG",
+    "curr_name": "Haitian Gourde"
+  },
+  {
+    "curr_code": "HUF",
+    "curr_name": "Hungarian Forint"
+  },
+  {
+    "curr_code": "ICP",
+    "curr_name": "Internet Computer"
+  },
+  {
+    "curr_code": "IDR",
+    "curr_name": "Indonesian Rupiah"
+  },
+  {
+    "curr_code": "ILS",
+    "curr_name": "Israeli New Sheqel"
+  },
+  {
+    "curr_code": "INR",
+    "curr_name": "Indian Rupee"
+  },
+  {
+    "curr_code": "IQD",
+    "curr_name": "Iraqi Dinar"
+  },
+  {
+    "curr_code": "IRR",
+    "curr_name": "Iranian Rial"
+  },
+  {
+    "curr_code": "ISK",
+    "curr_name": "Icelandic Krona"
+  },
+  {
+    "curr_code": "JEP",
+    "curr_name": "Jersey Pound"
+  },
+  {
+    "curr_code": "JMD",
+    "curr_name": "Jamaican Dollar"
+  },
+  {
+    "curr_code": "JOD",
+    "curr_name": "Jordanian Dinar"
+  },
+  {
+    "curr_code": "JPY",
+    "curr_name": "Japanese Yen"
+  },
+  {
+    "curr_code": "KES",
+    "curr_name": "Kenyan Shilling"
+  },
+  {
+    "curr_code": "KGS",
+    "curr_name": "Kyrgystani Som"
+  },
+  {
+    "curr_code": "KHR",
+    "curr_name": "Cambodian Riel"
+  },
+  {
+    "curr_code": "KMF",
+    "curr_name": "Comorian Franc"
+  },
+  {
+    "curr_code": "KPW",
+    "curr_name": "North Korean Won"
+  },
+  {
+    "curr_code": "KRW",
+    "curr_name": "South Korean Won"
+  },
+  {
+    "curr_code": "KWD",
+    "curr_name": "Kuwaiti Dinar"
+  },
+  {
+    "curr_code": "KYD",
+    "curr_name": "Cayman Islands Dollar"
+  },
+  {
+    "curr_code": "KZT",
+    "curr_name": "Kazakhstani Tenge"
+  },
+  {
+    "curr_code": "LAK",
+    "curr_name": "Laotian Kip"
+  },
+  {
+    "curr_code": "LBP",
+    "curr_name": "Lebanese Pound"
+  },
+  {
+    "curr_code": "LKR",
+    "curr_name": "Sri Lankan Rupee"
+  },
+  {
+    "curr_code": "LRD",
+    "curr_name": "Liberian Dollar"
+  },
+  {
+    "curr_code": "LSL",
+    "curr_name": "Lesotho Loti"
+  },
+  {
+    "curr_code": "LYD",
+    "curr_name": "Libyan Dinar"
+  },
+  {
+    "curr_code": "MAD",
+    "curr_name": "Moroccan Dirham"
+  },
+  {
+    "curr_code": "MDL",
+    "curr_name": "Moldovan Leu"
+  },
+  {
+    "curr_code": "MGA",
+    "curr_name": "Malagasy Ariary"
+  },
+  {
+    "curr_code": "MKD",
+    "curr_name": "Macedonian Denar"
+  },
+  {
+    "curr_code": "MMK",
+    "curr_name": "Myanma Kyat"
+  },
+  {
+    "curr_code": "MNT",
+    "curr_name": "Mongolian Tugrik"
+  },
+  {
+    "curr_code": "MOP",
+    "curr_name": "Macanese Pataca"
+  },
+  {
+    "curr_code": "MRO",
+    "curr_name": "Mauritanian Ouguiya (pre-2018)"
+  },
+  {
+    "curr_code": "MRU",
+    "curr_name": "Mauritanian Ouguiya"
+  },
+  {
+    "curr_code": "MUR",
+    "curr_name": "Mauritian Rupee"
+  },
+  {
+    "curr_code": "MVR",
+    "curr_name": "Maldivian Rufiyaa"
+  },
+  {
+    "curr_code": "MWK",
+    "curr_name": "Malawian Kwacha"
+  },
+  {
+    "curr_code": "MXN",
+    "curr_name": "Mexican Peso"
+  },
+  {
+    "curr_code": "MYR",
+    "curr_name": "Malaysian Ringgit"
+  },
+  {
+    "curr_code": "MZN",
+    "curr_name": "Mozambican Metical"
+  },
+  {
+    "curr_code": "NAD",
+    "curr_name": "Namibian Dollar"
+  },
+  {
+    "curr_code": "NGN",
+    "curr_name": "Nigerian Naira"
+  },
+  {
+    "curr_code": "NOK",
+    "curr_name": "Norwegian Krone"
+  },
+  {
+    "curr_code": "NPR",
+    "curr_name": "Nepalese Rupee"
+  },
+  {
+    "curr_code": "NZD",
+    "curr_name": "New Zealand Dollar"
+  },
+  {
+    "curr_code": "OMR",
+    "curr_name": "Omani Rial"
+  },
+  {
+    "curr_code": "PAB",
+    "curr_name": "Panamanian Balboa"
+  },
+  {
+    "curr_code": "PEN",
+    "curr_name": "Peruvian Nuevo Sol"
+  },
+  {
+    "curr_code": "PGK",
+    "curr_name": "Papua New Guinean Kina"
+  },
+  {
+    "curr_code": "PHP",
+    "curr_name": "Philippine Peso"
+  },
+  {
+    "curr_code": "PKR",
+    "curr_name": "Pakistani Rupee"
+  },
+  {
+    "curr_code": "PLN",
+    "curr_name": "Polish Zloty"
+  },
+  {
+    "curr_code": "PYG",
+    "curr_name": "Paraguayan Guarani"
+  },
+  {
+    "curr_code": "QAR",
+    "curr_name": "Qatari Rial"
+  },
+  {
+    "curr_code": "RON",
+    "curr_name": "Romanian Leu"
+  },
+  {
+    "curr_code": "RSD",
+    "curr_name": "Serbian Dinar"
+  },
+  {
+    "curr_code": "RUB",
+    "curr_name": "Russian Ruble"
+  },
+  {
+    "curr_code": "RUR",
+    "curr_name": "Old Russian Ruble"
+  },
+  {
+    "curr_code": "RWF",
+    "curr_name": "Rwandan Franc"
+  },
+  {
+    "curr_code": "SAR",
+    "curr_name": "Saudi Riyal"
+  },
+  {
+    "curr_code": "SBDf",
+    "curr_name": "Solomon Islands Dollar"
+  },
+  {
+    "curr_code": "SCR",
+    "curr_name": "Seychellois Rupee"
+  },
+  {
+    "curr_code": "SDG",
+    "curr_name": "Sudanese Pound"
+  },
+  {
+    "curr_code": "SDR",
+    "curr_name": "Special Drawing Rights"
+  },
+  {
+    "curr_code": "SEK",
+    "curr_name": "Swedish Krona"
+  },
+  {
+    "curr_code": "SGD",
+    "curr_name": "Singapore Dollar"
+  },
+  {
+    "curr_code": "SHP",
+    "curr_name": "Saint Helena Pound"
+  },
+  {
+    "curr_code": "SLL",
+    "curr_name": "Sierra Leonean Leone"
+  },
+  {
+    "curr_code": "SOS",
+    "curr_name": "Somali Shilling"
+  },
+  {
+    "curr_code": "SRD",
+    "curr_name": "Surinamese Dollar"
+  },
+  {
+    "curr_code": "SYP",
+    "curr_name": "Syrian Pound"
+  },
+  {
+    "curr_code": "SZL",
+    "curr_name": "Swazi Lilangeni"
+  },
+  {
+    "curr_code": "THB",
+    "curr_name": "Thai Baht"
+  },
+  {
+    "curr_code": "TJS",
+    "curr_name": "Tajikistani Somoni"
+  },
+  {
+    "curr_code": "TMT",
+    "curr_name": "Turkmenistani Manat"
+  },
+  {
+    "curr_code": "TND",
+    "curr_name": "Tunisian Dinar"
+  },
+  {
+    "curr_code": "TOP",
+    "curr_name": "Tongan Pa'anga"
+  },
+  {
+    "curr_code": "TRY",
+    "curr_name": "Turkish Lira"
+  },
+  {
+    "curr_code": "TTD",
+    "curr_name": "Trinidad and Tobago Dollar"
+  },
+  {
+    "curr_code": "TWD",
+    "curr_name": "New Taiwan Dollar"
+  },
+  {
+    "curr_code": "TZS",
+    "curr_name": "Tanzanian Shilling"
+  },
+  {
+    "curr_code": "UAH",
+    "curr_name": "Ukrainian Hryvnia"
+  },
+  {
+    "curr_code": "UGX",
+    "curr_name": "Ugandan Shilling"
+  },
+  {
+    "curr_code": "USD",
+    "curr_name": "United States Dollar"
+  },
+  {
+    "curr_code": "UYU",
+    "curr_name": "Uruguayan Peso"
+  },
+  {
+    "curr_code": "UZS",
+    "curr_name": "Uzbekistan Som"
+  },
+  {
+    "curr_code": "VND",
+    "curr_name": "Vietnamese Dong"
+  },
+  {
+    "curr_code": "VUV",
+    "curr_name": "Vanuatu Vatu"
+  },
+  {
+    "curr_code": "WST",
+    "curr_name": "Samoan Tala"
+  },
+  {
+    "curr_code": "XAF",
+    "curr_name": "CFA Franc BEAC"
+  },
+  {
+    "curr_code": "XCD",
+    "curr_name": "East Caribbean Dollar"
+  },
+  {
+    "curr_code": "XDR",
+    "curr_name": "Special Drawing Rights"
+  },
+  {
+    "curr_code": "XOF",
+    "curr_name": "CFA Franc BCEAO"
+  },
+  {
+    "curr_code": "XPF",
+    "curr_name": "CFP Franc"
+  },
+  {
+    "curr_code": "YER",
+    "curr_name": "Yemeni Rial"
+  },
+  {
+    "curr_code": "ZAR",
+    "curr_name": "South African Rand"
+  },
+  {
+    "curr_code": "ZMW",
+    "curr_name": "Zambian Kwacha"
+  },
+  {
+    "curr_code": "ZWL",
+    "curr_name": "Zimbabwean Dollar"
+  }
+]
