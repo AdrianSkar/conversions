@@ -1,5 +1,11 @@
 /*tslint:disabled*/
 
+// currencies data
+import CURRENCIES from './sample/data.js';
+console.log(CURRENCIES);
+console.log(Object.entries(CURRENCIES));
+console.log(Object.entries(CURRENCIES['physical']));
+
 // Shorthand selector:
 const $ = document.querySelector.bind(document);
 
@@ -9,6 +15,27 @@ document.addEventListener('DOMContentLoaded', () => {
 	let selectIDs = ['#input-base', '#input-target'];
 
 	$('#convert-btn').addEventListener('click', evt => getData('convert', evt));
+
+	// Populate options with ./sample/data.js (only physical for now)
+	let physical = CURRENCIES['physical'],
+		baseFrag = new DocumentFragment(),
+		targetFrag = new DocumentFragment();
+	console.log(physical);
+
+	physical.forEach(val => {
+		console.log(val);
+		console.log(val['curr_code']);
+		let opt = document.createElement('option');
+		opt.setAttribute('value', val['curr_code']);
+		opt.textContent = val['curr_name'];
+
+		baseFrag.appendChild(opt);
+		targetFrag.appendChild(opt.cloneNode(true));
+	});
+	$('#input-base').appendChild(baseFrag);
+	$('#input-target').appendChild(targetFrag);
+
+	///---------------------------------
 });
 
 function getData(action, evt) {
@@ -28,9 +55,11 @@ function getData(action, evt) {
 					$('#input-amt'),
 					$('#result'),
 				];
+
 				// Get data from exchange API to convert
 				let exURL = `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${baseCur.value}&to_currency=${targetCur.value}&apikey=${content.key}`;
 				// console.log(exURL);
+
 				fetch(exURL)
 					.then(response => response.json())
 					.then(response => {
