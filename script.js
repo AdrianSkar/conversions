@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function getData(action, evt) {
+	event.preventDefault();
 	console.log('Calling currency api using redirects');
 	console.log(action, evt);
 	let url = '/api/curr_api';
