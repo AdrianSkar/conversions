@@ -1,15 +1,64 @@
+/*tslint:disabled*/
+
+// Shorthand selector:
+const $ = document.querySelector.bind(document);
+
 document.addEventListener('DOMContentLoaded', () => {
-	document.getElementById('currApi').addEventListener('click', getData);
+	$('#currApi').addEventListener('click', evt => getData('IBM', evt));
+
+	let selectIDs = ['#input-base', '#input-target'];
+
+	$('#convert-btn').addEventListener('click', evt => getData('convert', evt));
 });
 
-function getData(ev) {
+function getData(action, evt) {
+	event.preventDefault();
 	console.log('Calling currency api using redirects');
+	console.log(action, evt);
 	let url = '/api/curr_api';
+
 	fetch(url)
 		.then(resp => resp.json())
 		.then(content => {
-			let main = document.querySelector('main');
-			main.innerHTML = `<h2>${content.msg}</h2>`;
+			if (action === 'convert') {
+				// User wants to convert
+				let [baseCur, targetCur, inputAmt, resultDiv] = [
+					$('#input-base'),
+					$('#input-target'),
+					$('#input-amt'),
+					$('#result'),
+				];
+				// Get data from exchange API to convert
+				let exURL = `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${baseCur.value}&to_currency=${targetCur.value}&apikey=${content.key}`;
+				// console.log(exURL);
+				fetch(exURL)
+					.then(response => response.json())
+					.then(response => {
+						console.log(exURL);
+						// console.log(response);
+						// console.log(
+						// 	response['Realtime Currency Exchange Rate']['5. Exchange Rate']
+						// );
+						let rate =
+							response['Realtime Currency Exchange Rate']['5. Exchange Rate'];
+						resultDiv.innerHTML = `Result: ${(inputAmt.value * rate).toFixed(
+							2
+						)} (rate: ${rate})`;
+					})
+					.catch(err => console.error(err));
+
+				// console.log('target', evt.target);
+				// console.log(action, evt);
+			} else {
+				// User wants to get data
+				let apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${action}&interval=5min&apikey=${content.key}`;
+				// Get data from API
+				fetch(apiUrl)
+					// `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=${content.key}`
+					.then(response => response.json())
+					.then(response => console.log(response))
+					.catch(err => console.error(err));
+			}
 		})
 		.catch(err => console.error);
 }

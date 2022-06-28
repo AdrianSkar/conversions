@@ -2,20 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana and Adrian's conversion tool</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ana and Adrian's conversion tool</title>
 </head>
 
 <body>
-    <nav>
-        <a id="currApi" href="#">currApi</a>
-      </nav>
-      <main>
-        <h2>Something loading...</h2>
-      </main>
-    <script src="script.js"></script>
+	<nav>
+		<a id="currApi" href="#">Api key</a>
+	</nav>
+	<main>
+		<h2>Currency converter:</h2>
+		<form action="#">
+			<label for="input-amt">Amount:</label>
+			<input id="input-amt" type="number" limit="100" required>
+			<!-- Hardcoded; remove after adding values from JS/api -->
+			<label for="input-base">From:</label>
+			<select id="input-base" name="input-base">
+				<option value="eur" selected>EUR</option>
+				<option value="usd">USD</option>
+			</select>
+			<!-- Hardcoded; remove after adding values from JS/api -->
+			<label for="input-target">to</label>
+			<select id="input-target" name="input-target">
+				<option value="eur">EUR</option>
+				<option value="usd" selected>USD</option>
+			</select>
+			<!-- convert button -->
+			<button id="convert-btn" type="submit">Convert</button>
+		</form>
+		<div id="result">Result:</div>
+	</main>
+	<script src="script.js"></script>
 </body>
 
 </html>

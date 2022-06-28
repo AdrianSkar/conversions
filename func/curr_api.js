@@ -4,11 +4,11 @@ exports.handler = function (event, context, callback) {
 	//event - similar to express Request object
 	console.log(event);
 
-	let curr_key = process.env.CURR_KEY;
+	let curr_key = process.env.ALPHA_KEY;
 	console.log(curr_key);
 
 	callback(null, {
 		statusCode: 200,
-		body: JSON.stringify({ msg: `Yep. Yep. Yep. ${curr_key}` }),
+		body: JSON.stringify({ key: curr_key }),
 	});
 };
