@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #192A33;
+}
+
+h1 {
+    color: #2FC4BE;
+justify-content: center;
+}
+
+label {
+    color: #F6B633;
+}
