@@ -1,18 +1,43 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background-color: #192A33;
+	background-color: #192a33;
 }
 
 h1 {
-    color: #2FC4BE;
-justify-content: center;
+	color: #2fc4be;
+	justify-content: center;
 }
 
 label {
-    color: #F6B633;
+	color: #f6b633;
+}
+
+.conversion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.currency-selectors {
+	margin-top: 10%;
+}
+
+.convert-amount {
+	margin-top: 10%;
+}
+
+#result {
+	color: #2fc4be;
+	font-size: 22px;
+    margin-top: 5%;
+    border: 2px solid white;
+    padding: 0 20px 20px;
+
 }

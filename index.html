@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+		<title>Ana and Adrian's conversion tool</title>
+	</head>
 
-	<title>Ana and Adrian's conversion tool</title>
-</head>
+	<body>
+		<nav>
+			<a id="currApi" href="#">Api key</a>
+		</nav>
+		<main>
+			<div class="conversion">
+				<h1>Currency Converter</h1>
+				<form action="#">
+					<div class="currency-selectors">
+						<!-- Hardcoded; remove after adding values from JS/api -->
+						<label for="input-base">From:</label>
+						<select id="input-base" name="input-base">
+							<option value="eur" selected>EUR</option>
+							<option value="usd">USD</option>
+						</select>
+						<!-- Hardcoded; remove after adding values from JS/api -->
+						<label for="input-target">to</label>
+						<select id="input-target" name="input-target">
+							<option value="eur">EUR</option>
+							<option value="usd" selected>USD</option>
+						</select>
+					</div>
+					<div class="convert-amount">
+						<label for="input-amt">Amount:</label>
+						<input id="input-amt" type="number" limit="100" required />
+						<!-- convert button -->
+						<button id="convert-btn" type="submit">Convert</button>
+					</div>
+				</form>
 
-<body>
-	<nav>
-		<a id="currApi" href="#">Api key</a>
-	</nav>
-	<main>
-		<h1>Currency converter:</h1>
-		<form action="#">
-			<label for="input-amt">Amount:</label>
-			<input id="input-amt" type="number" limit="100" required>
-			<!-- Hardcoded; remove after adding values from JS/api -->
-			<label for="input-base">From:</label>
-			<select id="input-base" name="input-base">
-				<option value="eur" selected>EUR</option>
-				<option value="usd">USD</option>
-			</select>
-			<!-- Hardcoded; remove after adding values from JS/api -->
-			<label for="input-target">to</label>
-			<select id="input-target" name="input-target">
-				<option value="eur">EUR</option>
-				<option value="usd" selected>USD</option>
-			</select>
-			<!-- convert button -->
-			<button id="convert-btn" type="submit">Convert</button>
-		</form>
-		<div id="result">Result:</div>
-	</main>
-	<script src="script.js"></script>
-</body>
-
+				<div id="result">Result:</div>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
 </html>
