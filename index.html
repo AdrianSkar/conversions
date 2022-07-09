@@ -19,20 +19,27 @@
 				<form action="#">
 					<div class="currency-selectors">
 						<!-- Hardcoded; remove after adding values from JS/api -->
-						<label for="input-base">From:</label>
-						<select id="input-base" name="input-base">
-							<option value="eur" selected>EUR</option>
-							<option value="usd">USD</option>
-						</select>
+						<div class="currency-base">
+							<label for="input-base">From:</label>
+							<br />
+							<select id="input-base" name="input-base">
+								<option value="eur" selected>EUR</option>
+								<option value="usd">USD</option>
+							</select>
+						</div>
 						<!-- Hardcoded; remove after adding values from JS/api -->
-						<label for="input-target">to</label>
-						<select id="input-target" name="input-target">
-							<option value="eur">EUR</option>
-							<option value="usd" selected>USD</option>
-						</select>
+						<div class="currency-target">
+							<label for="input-target">To:</label>
+							<br />
+							<select id="input-target" name="input-target">
+								<option value="eur">EUR</option>
+								<option value="usd" selected>USD</option>
+							</select>
+						</div>
 					</div>
 					<div class="convert-amount">
 						<label for="input-amt">Amount:</label>
+						<br />
 						<input id="input-amt" type="number" limit="100" required />
 						<!-- convert button -->
 						<button id="convert-btn" type="submit">Convert</button>

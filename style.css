@@ -27,17 +27,34 @@ label {
 
 .currency-selectors {
 	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
+.currency-base {
+    margin-right: 50px;
+}
+
+select {
+    width: 80px;
+}
 .convert-amount {
 	margin-top: 10%;
+}
+
+#convert-btn {
+	background-color: #2fc4be;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
 }
 
 #result {
 	color: #2fc4be;
 	font-size: 22px;
-    margin-top: 5%;
-    border: 2px solid white;
-    padding: 0 20px 20px;
-
+	margin-top: 5%;
+	border: 1px solid white;
+	padding: 10px 20px 40px;
+	border-radius: 10px;
 }
