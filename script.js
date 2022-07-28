@@ -2,9 +2,7 @@
 
 // currencies data
 import CURRENCIES from './sample/data.js';
-console.log(CURRENCIES);
-console.log(Object.entries(CURRENCIES));
-console.log(Object.entries(CURRENCIES['physical']));
+
 
 // Shorthand selector:
 const $ = document.querySelector.bind(document);
@@ -16,32 +14,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	$('#convert-btn').addEventListener('click', evt => getData('convert', evt));
 
-	// Populate options with ./sample/data.js (only physical for now)
+	// Populate select options with ./sample/data.js (only physical for now)
 	let physical = CURRENCIES['physical'],
 		baseFrag = new DocumentFragment(),
 		targetFrag = new DocumentFragment();
-	console.log(physical);
 
-	physical.forEach(val => {
-		console.log(val);
-		console.log(val['curr_code']);
+	physical.forEach(currency => {
 		let opt = document.createElement('option');
-		opt.setAttribute('value', val['curr_code']);
-		opt.textContent = val['curr_name'];
+		opt.setAttribute('value', currency['curr_code']);
+		opt.textContent = currency['curr_name'];
 
 		baseFrag.appendChild(opt);
 		targetFrag.appendChild(opt.cloneNode(true));
 	});
 	$('#input-base').appendChild(baseFrag);
 	$('#input-target').appendChild(targetFrag);
+	//-----------------------------------------------------------
 
-	///---------------------------------
 });
 
 function getData(action, evt) {
-	event.preventDefault();
+	// prevent default action
+	evt.preventDefault();
+
 	console.log('Calling currency api using redirects');
 	console.log(action, evt);
+
 	let url = '/api/curr_api';
 
 	fetch(url)
@@ -63,7 +61,7 @@ function getData(action, evt) {
 				fetch(exURL)
 					.then(response => response.json())
 					.then(response => {
-						console.log(exURL);
+						// console.log(exURL);
 						// console.log(response);
 						// console.log(
 						// 	response['Realtime Currency Exchange Rate']['5. Exchange Rate']
