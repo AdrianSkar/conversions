@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	physical.forEach(currency => {
 		let opt = document.createElement('option');
 		opt.setAttribute('value', currency['curr_code']);
-		opt.textContent = currency['curr_name'];
+		opt.textContent = currency['curr_code'];
 
 		baseFrag.appendChild(opt);
 		targetFrag.appendChild(opt.cloneNode(true));
