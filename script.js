@@ -60,22 +60,17 @@ function getData(action, evt) {
 
 				fetch(exURL)
 					.then(response => response.json())
-					.then(response => {
-						// console.log(exURL);
-						// console.log(response);
-						// console.log(
-						// 	response['Realtime Currency Exchange Rate']['5. Exchange Rate']
-						// );
+					.then(data => {
+						// Get rate from object prop:
+						// 	data['Realtime Currency Exchange Rate']['5. Exchange Rate']
 						let rate =
-							response['Realtime Currency Exchange Rate']['5. Exchange Rate'];
+							data['Realtime Currency Exchange Rate']['5. Exchange Rate'];
 						resultDiv.innerHTML = `Result: ${(inputAmt.value * rate).toFixed(
 							2
 						)} (rate: ${rate})`;
 					})
 					.catch(err => console.error(err));
 
-				// console.log('target', evt.target);
-				// console.log(action, evt);
 			} else {
 				// User wants to get data
 				let apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${action}&interval=5min&apikey=${content.key}`;
