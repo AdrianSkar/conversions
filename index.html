@@ -2,9 +2,14 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
 	<title>Ana and Adrian's conversion tool</title>
 </head>
 
@@ -13,22 +18,42 @@
 		<a id="currApi" href="#">Api key</a>
 	</nav>
 	<main>
-		<h2>Currency converter:</h2>
-		<form action="#">
-			<label for="input-amt">Amount:</label>
-			<input id="input-amt" type="number" limit="100" required>
-			<label for="input-base">From:</label>
-			<select id="input-base" name="input-base">
-			</select>
-			<label for="input-target">to</label>
-			<select id="input-target" name="input-target">
-			</select>
-			<!-- convert button -->
-			<button id="convert-btn" type="submit">Convert</button>
-		</form>
-		<div id="result">Result:</div>
+		<div class="conversion">
+			<h1>Currency Converter</h1>
+			<form action="#">
+				<div class="currency-selectors">
+					<!-- Hardcoded; remove after adding values from JS/api -->
+					<div class="currency-base">
+						<label for="input-base">From:</label>
+						<br />
+						<select id="input-base" name="input-base">
+							<option value="eur" selected>EUR</option>
+							<option value="usd">USD</option>
+						</select>
+					</div>
+					<!-- Hardcoded; remove after adding values from JS/api -->
+					<div class="currency-target">
+						<label for="input-target">To:</label>
+						<br />
+						<select id="input-target" name="input-target">
+							<option value="eur">EUR</option>
+							<option value="usd" selected>USD</option>
+						</select>
+					</div>
+				</div>
+				<div class="convert-amount">
+					<label for="input-amt">Amount:</label>
+					<br />
+					<input id="input-amt" type="number" limit="100" required />
+					<!-- convert button -->
+					<button id="convert-btn" type="submit">Convert</button>
+				</div>
+			</form>
+
+			<div id="result">Result:</div>
+		</div>
 	</main>
-	<script src="script.js" type="module"></script>
+	<script src="script.js"></script>
 </body>
 
 </html>
