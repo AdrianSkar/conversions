@@ -1,0 +1,2332 @@
+let currData = {
+	"physical": [
+		{
+			"curr_code": "AUD",
+			"curr_name": "Australian Dollar"
+		},
+		{
+			"curr_code": "CAD",
+			"curr_name": "Canadian Dollar"
+		},
+		{
+			"curr_code": "EUR",
+			"curr_name": "Euro"
+		},
+		{
+			"curr_code": "JPY",
+			"curr_name": "Japanese Yen"
+		},
+		{
+			"curr_code": "RUB",
+			"curr_name": "Russian Ruble"
+		},
+		{
+			"curr_code": "USD",
+			"curr_name": "United States Dollar"
+		}
+	],
+	"digital": [
+		{
+			"curr_code": "1ST",
+			"curr_name": "FirstBlood"
+		},
+		{
+			"curr_code": "2GIVE",
+			"curr_name": "GiveCoin"
+		},
+		{
+			"curr_code": 808,
+			"curr_name": "808Coin"
+		},
+		{
+			"curr_code": "AAVE",
+			"curr_name": "Aave"
+		},
+		{
+			"curr_code": "ABT",
+			"curr_name": "ArcBlock"
+		},
+		{
+			"curr_code": "ABY",
+			"curr_name": "ArtByte"
+		},
+		{
+			"curr_code": "AC",
+			"curr_name": "AsiaCoin"
+		},
+		{
+			"curr_code": "ACT",
+			"curr_name": "Achain"
+		},
+		{
+			"curr_code": "ADA",
+			"curr_name": "Cardano"
+		},
+		{
+			"curr_code": "ADT",
+			"curr_name": "adToken"
+		},
+		{
+			"curr_code": "ADX",
+			"curr_name": "AdEx"
+		},
+		{
+			"curr_code": "AE",
+			"curr_name": "Aeternity"
+		},
+		{
+			"curr_code": "AEON",
+			"curr_name": "Aeon"
+		},
+		{
+			"curr_code": "AGI",
+			"curr_name": "SingularityNET"
+		},
+		{
+			"curr_code": "AGRS",
+			"curr_name": "IDNI-Agoras"
+		},
+		{
+			"curr_code": "AI",
+			"curr_name": "POLY-AI"
+		},
+		{
+			"curr_code": "AID",
+			"curr_name": "AidCoin"
+		},
+		{
+			"curr_code": "AION",
+			"curr_name": "Aion"
+		},
+		{
+			"curr_code": "AIR",
+			"curr_name": "AirToken"
+		},
+		{
+			"curr_code": "AKY",
+			"curr_name": "Akuya-Coin"
+		},
+		{
+			"curr_code": "ALGO",
+			"curr_name": "Algorand"
+		},
+		{
+			"curr_code": "ALIS",
+			"curr_name": "ALIS"
+		},
+		{
+			"curr_code": "AMBER",
+			"curr_name": "AmberCoin"
+		},
+		{
+			"curr_code": "AMP",
+			"curr_name": "Synereo"
+		},
+		{
+			"curr_code": "AMPL",
+			"curr_name": "Ampleforth"
+		},
+		{
+			"curr_code": "ANC",
+			"curr_name": "Anoncoin"
+		},
+		{
+			"curr_code": "ANT",
+			"curr_name": "Aragon"
+		},
+		{
+			"curr_code": "APPC",
+			"curr_name": "AppCoins"
+		},
+		{
+			"curr_code": "APX",
+			"curr_name": "APX-Ventures"
+		},
+		{
+			"curr_code": "ARDR",
+			"curr_name": "Ardor"
+		},
+		{
+			"curr_code": "ARK",
+			"curr_name": "Ark"
+		},
+		{
+			"curr_code": "ARN",
+			"curr_name": "Aeron"
+		},
+		{
+			"curr_code": "AST",
+			"curr_name": "AirSwap"
+		},
+		{
+			"curr_code": "ATB",
+			"curr_name": "ATBCoin"
+		},
+		{
+			"curr_code": "ATM",
+			"curr_name": "ATMChain"
+		},
+		{
+			"curr_code": "ATOM",
+			"curr_name": "Cosmos"
+		},
+		{
+			"curr_code": "ATS",
+			"curr_name": "Authorship"
+		},
+		{
+			"curr_code": "AUR",
+			"curr_name": "Auroracoin"
+		},
+		{
+			"curr_code": "AVAX",
+			"curr_name": "Avalanche"
+		},
+		{
+			"curr_code": "AVT",
+			"curr_name": "Aventus"
+		},
+		{
+			"curr_code": "B3",
+			"curr_name": "B3Coin"
+		},
+		{
+			"curr_code": "BAND",
+			"curr_name": "Band Protocol"
+		},
+		{
+			"curr_code": "BAT",
+			"curr_name": "Basic-Attention-Token"
+		},
+		{
+			"curr_code": "BAY",
+			"curr_name": "BitBay"
+		},
+		{
+			"curr_code": "BBR",
+			"curr_name": "Boolberry"
+		},
+		{
+			"curr_code": "BCAP",
+			"curr_name": "BCAP"
+		},
+		{
+			"curr_code": "BCC",
+			"curr_name": "BitConnect"
+		},
+		{
+			"curr_code": "BCD",
+			"curr_name": "Bitcoin-Diamond"
+		},
+		{
+			"curr_code": "BCH",
+			"curr_name": "Bitcoin-Cash"
+		},
+		{
+			"curr_code": "BCN",
+			"curr_name": "Bytecoin"
+		},
+		{
+			"curr_code": "BCPT",
+			"curr_name": "BlockMason-Credit-Protocol-Token"
+		},
+		{
+			"curr_code": "BCX",
+			"curr_name": "BitcoinX"
+		},
+		{
+			"curr_code": "BCY",
+			"curr_name": "BitCrystals"
+		},
+		{
+			"curr_code": "BDL",
+			"curr_name": "Bitdeal"
+		},
+		{
+			"curr_code": "BEE",
+			"curr_name": "Bee-Token"
+		},
+		{
+			"curr_code": "BELA",
+			"curr_name": "BelaCoin"
+		},
+		{
+			"curr_code": "BET",
+			"curr_name": "DAO-Casino"
+		},
+		{
+			"curr_code": "BFT",
+			"curr_name": "BF-Token"
+		},
+		{
+			"curr_code": "BIS",
+			"curr_name": "Bismuth"
+		},
+		{
+			"curr_code": "BITB",
+			"curr_name": "BitBean"
+		},
+		{
+			"curr_code": "BITBTC",
+			"curr_name": "BitBTC"
+		},
+		{
+			"curr_code": "BITCNY",
+			"curr_name": "BitCNY"
+		},
+		{
+			"curr_code": "BITEUR",
+			"curr_name": "BitEUR"
+		},
+		{
+			"curr_code": "BITGOLD",
+			"curr_name": "BitGOLD"
+		},
+		{
+			"curr_code": "BITSILVER",
+			"curr_name": "BitSILVER"
+		},
+		{
+			"curr_code": "BITUSD",
+			"curr_name": "BitUSD"
+		},
+		{
+			"curr_code": "BIX",
+			"curr_name": "Bibox-Token"
+		},
+		{
+			"curr_code": "BLITZ",
+			"curr_name": "Blitzcash"
+		},
+		{
+			"curr_code": "BLK",
+			"curr_name": "Blackcoin"
+		},
+		{
+			"curr_code": "BLN",
+			"curr_name": "Bolenum"
+		},
+		{
+			"curr_code": "BLOCK",
+			"curr_name": "Blocknet"
+		},
+		{
+			"curr_code": "BLZ",
+			"curr_name": "Bluzelle"
+		},
+		{
+			"curr_code": "BMC",
+			"curr_name": "Blackmoon-Crypto"
+		},
+		{
+			"curr_code": "BNB",
+			"curr_name": "Binance-Coin"
+		},
+		{
+			"curr_code": "BNT",
+			"curr_name": "Bancor-Network-Token"
+		},
+		{
+			"curr_code": "BNTY",
+			"curr_name": "Bounty0x"
+		},
+		{
+			"curr_code": "BOST",
+			"curr_name": "BoostCoin"
+		},
+		{
+			"curr_code": "BOT",
+			"curr_name": "Bodhi"
+		},
+		{
+			"curr_code": "BQ",
+			"curr_name": "bitqy"
+		},
+		{
+			"curr_code": "BRD",
+			"curr_name": "Bread"
+		},
+		{
+			"curr_code": "BRK",
+			"curr_name": "Breakout-Coin"
+		},
+		{
+			"curr_code": "BRX",
+			"curr_name": "Breakout-Stake"
+		},
+		{
+			"curr_code": "BSV",
+			"curr_name": "Bitcoin SV"
+		},
+		{
+			"curr_code": "BTA",
+			"curr_name": "Bata"
+		},
+		{
+			"curr_code": "BTC",
+			"curr_name": "Bitcoin"
+		},
+		{
+			"curr_code": "BTCB",
+			"curr_name": "Bitcoin BEP2"
+		},
+		{
+			"curr_code": "BTCD",
+			"curr_name": "BitcoinDark"
+		},
+		{
+			"curr_code": "BTCP",
+			"curr_name": "Bitcoin-Private"
+		},
+		{
+			"curr_code": "BTG",
+			"curr_name": "Bitcoin-Gold"
+		},
+		{
+			"curr_code": "BTM",
+			"curr_name": "Bitmark"
+		},
+		{
+			"curr_code": "BTS",
+			"curr_name": "BitShares"
+		},
+		{
+			"curr_code": "BTSR",
+			"curr_name": "BTSR"
+		},
+		{
+			"curr_code": "BTT",
+			"curr_name": "BitTorrent"
+		},
+		{
+			"curr_code": "BTX",
+			"curr_name": "Bitcore"
+		},
+		{
+			"curr_code": "BURST",
+			"curr_name": "Burstcoin"
+		},
+		{
+			"curr_code": "BUSD",
+			"curr_name": "Binance-USD"
+		},
+		{
+			"curr_code": "BUZZ",
+			"curr_name": "BuzzCoin"
+		},
+		{
+			"curr_code": "BYC",
+			"curr_name": "Bytecent"
+		},
+		{
+			"curr_code": "BYTOM",
+			"curr_name": "Bytom"
+		},
+		{
+			"curr_code": "C20",
+			"curr_name": "Crypto20"
+		},
+		{
+			"curr_code": "CAKE",
+			"curr_name": "PancakeSwap"
+		},
+		{
+			"curr_code": "CANN",
+			"curr_name": "CannabisCoin"
+		},
+		{
+			"curr_code": "CAT",
+			"curr_name": "BlockCAT"
+		},
+		{
+			"curr_code": "CCRB",
+			"curr_name": "CryptoCarbon"
+		},
+		{
+			"curr_code": "CDT",
+			"curr_name": "Blox"
+		},
+		{
+			"curr_code": "CFI",
+			"curr_name": "Cofound-it"
+		},
+		{
+			"curr_code": "CHAT",
+			"curr_name": "ChatCoin"
+		},
+		{
+			"curr_code": "CHIPS",
+			"curr_name": "Chips"
+		},
+		{
+			"curr_code": "CLAM",
+			"curr_name": "Clams"
+		},
+		{
+			"curr_code": "CLOAK",
+			"curr_name": "CloakCoin"
+		},
+		{
+			"curr_code": "CMP",
+			"curr_name": "Compcoin"
+		},
+		{
+			"curr_code": "CMT",
+			"curr_name": "CyberMiles"
+		},
+		{
+			"curr_code": "CND",
+			"curr_name": "Cindicator"
+		},
+		{
+			"curr_code": "CNX",
+			"curr_name": "Cryptonex"
+		},
+		{
+			"curr_code": "COFI",
+			"curr_name": "CoinFi"
+		},
+		{
+			"curr_code": "COMP",
+			"curr_name": "Compound"
+		},
+		{
+			"curr_code": "COSS",
+			"curr_name": "COSS"
+		},
+		{
+			"curr_code": "COVAL",
+			"curr_name": "Circuits-Of-Value"
+		},
+		{
+			"curr_code": "CRBIT",
+			"curr_name": "CreditBIT"
+		},
+		{
+			"curr_code": "CREA",
+			"curr_name": "CreativeCoin"
+		},
+		{
+			"curr_code": "CREDO",
+			"curr_name": "Credo"
+		},
+		{
+			"curr_code": "CRO",
+			"curr_name": "Crypto.com Coin"
+		},
+		{
+			"curr_code": "CRW",
+			"curr_name": "Crown"
+		},
+		{
+			"curr_code": "CSNO",
+			"curr_name": "BitDice"
+		},
+		{
+			"curr_code": "CTR",
+			"curr_name": "Centra"
+		},
+		{
+			"curr_code": "CTXC",
+			"curr_name": "Cortex"
+		},
+		{
+			"curr_code": "CURE",
+			"curr_name": "CureCoin"
+		},
+		{
+			"curr_code": "CVC",
+			"curr_name": "Civic"
+		},
+		{
+			"curr_code": "DAI",
+			"curr_name": "Dai"
+		},
+		{
+			"curr_code": "DAR",
+			"curr_name": "Darcrus"
+		},
+		{
+			"curr_code": "DASH",
+			"curr_name": "Dash"
+		},
+		{
+			"curr_code": "DATA",
+			"curr_name": "DATAcoin"
+		},
+		{
+			"curr_code": "DAY",
+			"curr_name": "Chronologic"
+		},
+		{
+			"curr_code": "DBC",
+			"curr_name": "DeepBrain-Chain"
+		},
+		{
+			"curr_code": "DBIX",
+			"curr_name": "DubaiCoin"
+		},
+		{
+			"curr_code": "DCN",
+			"curr_name": "Dentacoin"
+		},
+		{
+			"curr_code": "DCR",
+			"curr_name": "Decred"
+		},
+		{
+			"curr_code": "DCT",
+			"curr_name": "DECENT"
+		},
+		{
+			"curr_code": "DDF",
+			"curr_name": "Digital-Developers-Fund"
+		},
+		{
+			"curr_code": "DENT",
+			"curr_name": "Dent"
+		},
+		{
+			"curr_code": "DFS",
+			"curr_name": "DFSCoin"
+		},
+		{
+			"curr_code": "DGB",
+			"curr_name": "DigiByte"
+		},
+		{
+			"curr_code": "DGC",
+			"curr_name": "Digitalcoin"
+		},
+		{
+			"curr_code": "DGD",
+			"curr_name": "DigixDAO"
+		},
+		{
+			"curr_code": "DICE",
+			"curr_name": "Etheroll"
+		},
+		{
+			"curr_code": "DLT",
+			"curr_name": "Agrello-Delta"
+		},
+		{
+			"curr_code": "DMD",
+			"curr_name": "Diamond"
+		},
+		{
+			"curr_code": "DMT",
+			"curr_name": "DMarket"
+		},
+		{
+			"curr_code": "DNT",
+			"curr_name": "district0x"
+		},
+		{
+			"curr_code": "DOGE",
+			"curr_name": "DogeCoin"
+		},
+		{
+			"curr_code": "DOPE",
+			"curr_name": "DopeCoin"
+		},
+		{
+			"curr_code": "DOT",
+			"curr_name": "Polkadot"
+		},
+		{
+			"curr_code": "DRGN",
+			"curr_name": "Dragonchain"
+		},
+		{
+			"curr_code": "DTA",
+			"curr_name": "Data"
+		},
+		{
+			"curr_code": "DTB",
+			"curr_name": "Databits"
+		},
+		{
+			"curr_code": "DYN",
+			"curr_name": "Dynamic"
+		},
+		{
+			"curr_code": "EAC",
+			"curr_name": "EarthCoin"
+		},
+		{
+			"curr_code": "EBST",
+			"curr_name": "eBoost"
+		},
+		{
+			"curr_code": "EBTC",
+			"curr_name": "eBTC"
+		},
+		{
+			"curr_code": "ECC",
+			"curr_name": "ECC"
+		},
+		{
+			"curr_code": "ECN",
+			"curr_name": "E-coin"
+		},
+		{
+			"curr_code": "EDG",
+			"curr_name": "Edgeless"
+		},
+		{
+			"curr_code": "EDO",
+			"curr_name": "Eidoo"
+		},
+		{
+			"curr_code": "EFL",
+			"curr_name": "Electronic-Gulden"
+		},
+		{
+			"curr_code": "EGC",
+			"curr_name": "EverGreenCoin"
+		},
+		{
+			"curr_code": "EGLD",
+			"curr_name": "Elrond"
+		},
+		{
+			"curr_code": "EKT",
+			"curr_name": "EDUCare"
+		},
+		{
+			"curr_code": "ELA",
+			"curr_name": "Elastos"
+		},
+		{
+			"curr_code": "ELEC",
+			"curr_name": "Electrify.Asia"
+		},
+		{
+			"curr_code": "ELF",
+			"curr_name": "aelf"
+		},
+		{
+			"curr_code": "ELIX",
+			"curr_name": "Elixir"
+		},
+		{
+			"curr_code": "EMB",
+			"curr_name": "Embercoin"
+		},
+		{
+			"curr_code": "EMC",
+			"curr_name": "Emercoin"
+		},
+		{
+			"curr_code": "EMC2",
+			"curr_name": "Einsteinium"
+		},
+		{
+			"curr_code": "ENG",
+			"curr_name": "Enigma"
+		},
+		{
+			"curr_code": "ENJ",
+			"curr_name": "Enjin-Coin"
+		},
+		{
+			"curr_code": "ENRG",
+			"curr_name": "EnergyCoin"
+		},
+		{
+			"curr_code": "EOS",
+			"curr_name": "EOS"
+		},
+		{
+			"curr_code": "EOT",
+			"curr_name": "EOT-Token"
+		},
+		{
+			"curr_code": "EQT",
+			"curr_name": "EquiTrader"
+		},
+		{
+			"curr_code": "ERC",
+			"curr_name": "EuropeCoin"
+		},
+		{
+			"curr_code": "ETC",
+			"curr_name": "Ethereum-Classic"
+		},
+		{
+			"curr_code": "ETH",
+			"curr_name": "Ethereum"
+		},
+		{
+			"curr_code": "ETHD",
+			"curr_name": "Ethereum-Dark"
+		},
+		{
+			"curr_code": "ETHOS",
+			"curr_name": "Ethos"
+		},
+		{
+			"curr_code": "ETN",
+			"curr_name": "Electroneum"
+		},
+		{
+			"curr_code": "ETP",
+			"curr_name": "Metaverse-Entropy"
+		},
+		{
+			"curr_code": "ETT",
+			"curr_name": "EncryptoTel"
+		},
+		{
+			"curr_code": "EVE",
+			"curr_name": "Devery"
+		},
+		{
+			"curr_code": "EVX",
+			"curr_name": "Everex"
+		},
+		{
+			"curr_code": "EXCL",
+			"curr_name": "ExclusiveCoin"
+		},
+		{
+			"curr_code": "EXP",
+			"curr_name": "Expanse"
+		},
+		{
+			"curr_code": "FCT",
+			"curr_name": "Factom"
+		},
+		{
+			"curr_code": "FIL",
+			"curr_name": "Filecoin"
+		},
+		{
+			"curr_code": "FLDC",
+			"curr_name": "FoldingCoin"
+		},
+		{
+			"curr_code": "FLO",
+			"curr_name": "FlorinCoin"
+		},
+		{
+			"curr_code": "FLT",
+			"curr_name": "FlutterCoin"
+		},
+		{
+			"curr_code": "FRST",
+			"curr_name": "FirstCoin"
+		},
+		{
+			"curr_code": "FTC",
+			"curr_name": "Feathercoin"
+		},
+		{
+			"curr_code": "FTT",
+			"curr_name": "FTX Token"
+		},
+		{
+			"curr_code": "FUEL",
+			"curr_name": "Etherparty"
+		},
+		{
+			"curr_code": "FUN",
+			"curr_name": "FunFair"
+		},
+		{
+			"curr_code": "GAM",
+			"curr_name": "Gambit"
+		},
+		{
+			"curr_code": "GAME",
+			"curr_name": "GameCredits"
+		},
+		{
+			"curr_code": "GAS",
+			"curr_name": "Gas"
+		},
+		{
+			"curr_code": "GBG",
+			"curr_name": "Golos Gold"
+		},
+		{
+			"curr_code": "GBX",
+			"curr_name": "GoByte"
+		},
+		{
+			"curr_code": "GBYTE",
+			"curr_name": "Byteball"
+		},
+		{
+			"curr_code": "GCR",
+			"curr_name": "GCRCoin"
+		},
+		{
+			"curr_code": "GEO",
+			"curr_name": "GeoCoin"
+		},
+		{
+			"curr_code": "GLD",
+			"curr_name": "GoldCoin"
+		},
+		{
+			"curr_code": "GNO",
+			"curr_name": "Gnosis-Token"
+		},
+		{
+			"curr_code": "GNT",
+			"curr_name": "Golem-Tokens"
+		},
+		{
+			"curr_code": "GOLOS",
+			"curr_name": "Golos"
+		},
+		{
+			"curr_code": "GRC",
+			"curr_name": "Gridcoin"
+		},
+		{
+			"curr_code": "GRT",
+			"curr_name": "Graph"
+		},
+		{
+			"curr_code": "GRS",
+			"curr_name": "Groestlcoin"
+		},
+		{
+			"curr_code": "GRWI",
+			"curr_name": "Growers-International"
+		},
+		{
+			"curr_code": "GTC",
+			"curr_name": "Game"
+		},
+		{
+			"curr_code": "GTO",
+			"curr_name": "Gifto"
+		},
+		{
+			"curr_code": "GUP",
+			"curr_name": "Guppy"
+		},
+		{
+			"curr_code": "GVT",
+			"curr_name": "Genesis-Vision"
+		},
+		{
+			"curr_code": "GXS",
+			"curr_name": "GXShares"
+		},
+		{
+			"curr_code": "HBAR",
+			"curr_name": "Hedera"
+		},
+		{
+			"curr_code": "HBN",
+			"curr_name": "HoboNickels"
+		},
+		{
+			"curr_code": "HEAT",
+			"curr_name": "HEAT"
+		},
+		{
+			"curr_code": "HMQ",
+			"curr_name": "Humaniq"
+		},
+		{
+			"curr_code": "HPB",
+			"curr_name": "High-Performance-Blockchain"
+		},
+		{
+			"curr_code": "HSR",
+			"curr_name": "Hshare"
+		},
+		{
+			"curr_code": "HT",
+			"curr_name": "Huobi Token"
+		},
+		{
+			"curr_code": "HUSH",
+			"curr_name": "Hush"
+		},
+		{
+			"curr_code": "HVN",
+			"curr_name": "Hive"
+		},
+		{
+			"curr_code": "HXX",
+			"curr_name": "HexxCoin"
+		},
+		{
+			"curr_code": "ICN",
+			"curr_name": "ICONOMI"
+		},
+		{
+			"curr_code": "ICX",
+			"curr_name": "ICON"
+		},
+		{
+			"curr_code": "IFC",
+			"curr_name": "Infinitecoin"
+		},
+		{
+			"curr_code": "IFT",
+			"curr_name": "investFeed"
+		},
+		{
+			"curr_code": "IGNIS",
+			"curr_name": "Ignis"
+		},
+		{
+			"curr_code": "INCNT",
+			"curr_name": "Incent"
+		},
+		{
+			"curr_code": "IND",
+			"curr_name": "Indorse-Token"
+		},
+		{
+			"curr_code": "INF",
+			"curr_name": "InfChain"
+		},
+		{
+			"curr_code": "INK",
+			"curr_name": "Ink"
+		},
+		{
+			"curr_code": "INS",
+			"curr_name": "INS-Ecosystem"
+		},
+		{
+			"curr_code": "INSTAR",
+			"curr_name": "Insights-Network"
+		},
+		{
+			"curr_code": "INT",
+			"curr_name": "Internet-Node-Token"
+		},
+		{
+			"curr_code": "INXT",
+			"curr_name": "Internxt"
+		},
+		{
+			"curr_code": "IOC",
+			"curr_name": "IOCoin"
+		},
+		{
+			"curr_code": "ION",
+			"curr_name": "ION"
+		},
+		{
+			"curr_code": "IOP",
+			"curr_name": "Internet-of-People"
+		},
+		{
+			"curr_code": "IOST",
+			"curr_name": "IOStoken"
+		},
+		{
+			"curr_code": "IOTA",
+			"curr_name": "IOTA"
+		},
+		{
+			"curr_code": "IOTX",
+			"curr_name": "IoTeX"
+		},
+		{
+			"curr_code": "IQT",
+			"curr_name": "Iquant-Chain"
+		},
+		{
+			"curr_code": "ITC",
+			"curr_name": "IoT-Chain"
+		},
+		{
+			"curr_code": "IXC",
+			"curr_name": "iXcoin"
+		},
+		{
+			"curr_code": "IXT",
+			"curr_name": "InsureX"
+		},
+		{
+			"curr_code": "J8T",
+			"curr_name": "JET8"
+		},
+		{
+			"curr_code": "JNT",
+			"curr_name": "Jibrel-Network"
+		},
+		{
+			"curr_code": "KCS",
+			"curr_name": "KuCoin"
+		},
+		{
+			"curr_code": "KICK",
+			"curr_name": "KickCoin"
+		},
+		{
+			"curr_code": "KIN",
+			"curr_name": "KIN"
+		},
+		{
+			"curr_code": "KLAY",
+			"curr_name": "Klaytn"
+		},
+		{
+			"curr_code": "KMD",
+			"curr_name": "Komodo"
+		},
+		{
+			"curr_code": "KNC",
+			"curr_name": "Kyber-Network"
+		},
+		{
+			"curr_code": "KORE",
+			"curr_name": "KoreCoin"
+		},
+		{
+			"curr_code": "KSM",
+			"curr_name": "Kusama"
+		},
+		{
+			"curr_code": "LBC",
+			"curr_name": "LBRY-Credits"
+		},
+		{
+			"curr_code": "LCC",
+			"curr_name": "Litecoin-Cash"
+		},
+		{
+			"curr_code": "LEND",
+			"curr_name": "EthLend"
+		},
+		{
+			"curr_code": "LEO",
+			"curr_name": "UNUS SED LEO"
+		},
+		{
+			"curr_code": "LEV",
+			"curr_name": "Leverj"
+		},
+		{
+			"curr_code": "LGD",
+			"curr_name": "Legends-Room"
+		},
+		{
+			"curr_code": "LINDA",
+			"curr_name": "Linda"
+		},
+		{
+			"curr_code": "LINK",
+			"curr_name": "ChainLink"
+		},
+		{
+			"curr_code": "LKK",
+			"curr_name": "Lykke"
+		},
+		{
+			"curr_code": "LMC",
+			"curr_name": "LoMoCoin"
+		},
+		{
+			"curr_code": "LOCI",
+			"curr_name": "LOCIcoin"
+		},
+		{
+			"curr_code": "LOOM",
+			"curr_name": "Loom-Token"
+		},
+		{
+			"curr_code": "LRC",
+			"curr_name": "Loopring"
+		},
+		{
+			"curr_code": "LSK",
+			"curr_name": "Lisk"
+		},
+		{
+			"curr_code": "LTC",
+			"curr_name": "Litecoin"
+		},
+		{
+			"curr_code": "LUN",
+			"curr_name": "Lunyr"
+		},
+		{
+			"curr_code": "LUNA",
+			"curr_name": "Terra"
+		},
+		{
+			"curr_code": "MAID",
+			"curr_name": "MaidSafeCoin"
+		},
+		{
+			"curr_code": "MANA",
+			"curr_name": "Decentraland"
+		},
+		{
+			"curr_code": "MATIC",
+			"curr_name": "Polygon"
+		},
+		{
+			"curr_code": "MAX",
+			"curr_name": "Maxcoin"
+		},
+		{
+			"curr_code": "MBRS",
+			"curr_name": "Embers"
+		},
+		{
+			"curr_code": "MCAP",
+			"curr_name": "MCAP"
+		},
+		{
+			"curr_code": "MCO",
+			"curr_name": "Monaco"
+		},
+		{
+			"curr_code": "MDA",
+			"curr_name": "Moeda-Loyalty-Points"
+		},
+		{
+			"curr_code": "MEC",
+			"curr_name": "Megacoin"
+		},
+		{
+			"curr_code": "MED",
+			"curr_name": "MediBlock"
+		},
+		{
+			"curr_code": "MEME",
+			"curr_name": "Memetic"
+		},
+		{
+			"curr_code": "MER",
+			"curr_name": "Mercury"
+		},
+		{
+			"curr_code": "MGC",
+			"curr_name": "MergeCoin"
+		},
+		{
+			"curr_code": "MGO",
+			"curr_name": "MobileGo"
+		},
+		{
+			"curr_code": "MINEX",
+			"curr_name": "Minex"
+		},
+		{
+			"curr_code": "MINT",
+			"curr_name": "Mintcoin"
+		},
+		{
+			"curr_code": "MIOTA",
+			"curr_name": "IOTA"
+		},
+		{
+			"curr_code": "MITH",
+			"curr_name": "Mithril"
+		},
+		{
+			"curr_code": "MKR",
+			"curr_name": "Maker"
+		},
+		{
+			"curr_code": "MLN",
+			"curr_name": "Melon"
+		},
+		{
+			"curr_code": "MNE",
+			"curr_name": "Minereum"
+		},
+		{
+			"curr_code": "MNX",
+			"curr_name": "MinexCoin"
+		},
+		{
+			"curr_code": "MOD",
+			"curr_name": "Modum"
+		},
+		{
+			"curr_code": "MONA",
+			"curr_name": "MonaCoin"
+		},
+		{
+			"curr_code": "MRT",
+			"curr_name": "Miners-Reward-Token"
+		},
+		{
+			"curr_code": "MSP",
+			"curr_name": "Mothership"
+		},
+		{
+			"curr_code": "MTH",
+			"curr_name": "Monetha"
+		},
+		{
+			"curr_code": "MTN",
+			"curr_name": "MedToken"
+		},
+		{
+			"curr_code": "MUE",
+			"curr_name": "MonetaryUnit"
+		},
+		{
+			"curr_code": "MUSIC",
+			"curr_name": "Musicoin"
+		},
+		{
+			"curr_code": "MYB",
+			"curr_name": "MyBit-Token"
+		},
+		{
+			"curr_code": "MYST",
+			"curr_name": "Mysterium"
+		},
+		{
+			"curr_code": "MZC",
+			"curr_name": "Mazacoin"
+		},
+		{
+			"curr_code": "NAMO",
+			"curr_name": "Namocoin"
+		},
+		{
+			"curr_code": "NANO",
+			"curr_name": "Nano"
+		},
+		{
+			"curr_code": "NAS",
+			"curr_name": "Nebulas-Token"
+		},
+		{
+			"curr_code": "NAV",
+			"curr_name": "Nav-Coin"
+		},
+		{
+			"curr_code": "NBT",
+			"curr_name": "NuBits"
+		},
+		{
+			"curr_code": "NCASH",
+			"curr_name": "Nucleus-Vision"
+		},
+		{
+			"curr_code": "NDC",
+			"curr_name": "NeverDie-Coin"
+		},
+		{
+			"curr_code": "NEBL",
+			"curr_name": "Neblio"
+		},
+		{
+			"curr_code": "NEO",
+			"curr_name": "NEO"
+		},
+		{
+			"curr_code": "NEOS",
+			"curr_name": "NeosCoin"
+		},
+		{
+			"curr_code": "NET",
+			"curr_name": "Nimiq"
+		},
+		{
+			"curr_code": "NLC2",
+			"curr_name": "NoLimitCoin"
+		},
+		{
+			"curr_code": "NLG",
+			"curr_name": "Gulden"
+		},
+		{
+			"curr_code": "NMC",
+			"curr_name": "Namecoin"
+		},
+		{
+			"curr_code": "NMR",
+			"curr_name": "Numeraire"
+		},
+		{
+			"curr_code": "NOBL",
+			"curr_name": "NobleCoin"
+		},
+		{
+			"curr_code": "NOTE",
+			"curr_name": "DNotes"
+		},
+		{
+			"curr_code": "NPXS",
+			"curr_name": "Pundi-X-Token"
+		},
+		{
+			"curr_code": "NSR",
+			"curr_name": "NuShares"
+		},
+		{
+			"curr_code": "NTO",
+			"curr_name": "Fujinto"
+		},
+		{
+			"curr_code": "NULS",
+			"curr_name": "Nuls"
+		},
+		{
+			"curr_code": "NVC",
+			"curr_name": "Novacoin"
+		},
+		{
+			"curr_code": "NXC",
+			"curr_name": "Nexium"
+		},
+		{
+			"curr_code": "NXS",
+			"curr_name": "Nexus"
+		},
+		{
+			"curr_code": "NXT",
+			"curr_name": "Nxt"
+		},
+		{
+			"curr_code": "OAX",
+			"curr_name": "openANX"
+		},
+		{
+			"curr_code": "OBITS",
+			"curr_name": "Obits"
+		},
+		{
+			"curr_code": "OCL",
+			"curr_name": "Oceanlab"
+		},
+		{
+			"curr_code": "OCN",
+			"curr_name": "Odyssey"
+		},
+		{
+			"curr_code": "ODEM",
+			"curr_name": "ODEM"
+		},
+		{
+			"curr_code": "ODN",
+			"curr_name": "Obsidian"
+		},
+		{
+			"curr_code": "OF",
+			"curr_name": "OFCOIN"
+		},
+		{
+			"curr_code": "OK",
+			"curr_name": "OKCash"
+		},
+		{
+			"curr_code": "OMG",
+			"curr_name": "OmiseGo"
+		},
+		{
+			"curr_code": "OMNI",
+			"curr_name": "Omni"
+		},
+		{
+			"curr_code": "ONION",
+			"curr_name": "DeepOnion"
+		},
+		{
+			"curr_code": "ONT",
+			"curr_name": "Ontology"
+		},
+		{
+			"curr_code": "OPT",
+			"curr_name": "Opus"
+		},
+		{
+			"curr_code": "ORN",
+			"curr_name": "Orion-Protocol"
+		},
+		{
+			"curr_code": "OST",
+			"curr_name": "Simple-Token"
+		},
+		{
+			"curr_code": "PART",
+			"curr_name": "Particl"
+		},
+		{
+			"curr_code": "PASC",
+			"curr_name": "PascalCoin"
+		},
+		{
+			"curr_code": "PAY",
+			"curr_name": "TenX"
+		},
+		{
+			"curr_code": "PBL",
+			"curr_name": "Pebbles"
+		},
+		{
+			"curr_code": "PBT",
+			"curr_name": "Primalbase-Token"
+		},
+		{
+			"curr_code": "PFR",
+			"curr_name": "Payfair"
+		},
+		{
+			"curr_code": "PING",
+			"curr_name": "CryptoPing"
+		},
+		{
+			"curr_code": "PINK",
+			"curr_name": "Pinkcoin"
+		},
+		{
+			"curr_code": "PIVX",
+			"curr_name": "PIVX"
+		},
+		{
+			"curr_code": "PIX",
+			"curr_name": "Lampix"
+		},
+		{
+			"curr_code": "PLBT",
+			"curr_name": "Polybius"
+		},
+		{
+			"curr_code": "PLR",
+			"curr_name": "Pillar"
+		},
+		{
+			"curr_code": "PLU",
+			"curr_name": "Pluton"
+		},
+		{
+			"curr_code": "POA",
+			"curr_name": "POA-Network"
+		},
+		{
+			"curr_code": "POE",
+			"curr_name": "Poet"
+		},
+		{
+			"curr_code": "POLY",
+			"curr_name": "Polymath"
+		},
+		{
+			"curr_code": "POSW",
+			"curr_name": "PoSW-Coin"
+		},
+		{
+			"curr_code": "POT",
+			"curr_name": "PotCoin"
+		},
+		{
+			"curr_code": "POWR",
+			"curr_name": "Power-Ledger"
+		},
+		{
+			"curr_code": "PPC",
+			"curr_name": "Peercoin"
+		},
+		{
+			"curr_code": "PPT",
+			"curr_name": "Populous"
+		},
+		{
+			"curr_code": "PPY",
+			"curr_name": "Peerplays"
+		},
+		{
+			"curr_code": "PRG",
+			"curr_name": "Paragon-Coin"
+		},
+		{
+			"curr_code": "PRL",
+			"curr_name": "Oyster-Pearl"
+		},
+		{
+			"curr_code": "PRO",
+			"curr_name": "Propy"
+		},
+		{
+			"curr_code": "PST",
+			"curr_name": "Primas"
+		},
+		{
+			"curr_code": "PTC",
+			"curr_name": "Pesetacoin"
+		},
+		{
+			"curr_code": "PTOY",
+			"curr_name": "Patientory"
+		},
+		{
+			"curr_code": "PURA",
+			"curr_name": "Pura"
+		},
+		{
+			"curr_code": "QASH",
+			"curr_name": "QASH"
+		},
+		{
+			"curr_code": "QAU",
+			"curr_name": "Quantum"
+		},
+		{
+			"curr_code": "QLC",
+			"curr_name": "Qlink"
+		},
+		{
+			"curr_code": "QRK",
+			"curr_name": "Quark"
+		},
+		{
+			"curr_code": "QRL",
+			"curr_name": "Quantum-Resistant-Ledger"
+		},
+		{
+			"curr_code": "QSP",
+			"curr_name": "Quantstamp"
+		},
+		{
+			"curr_code": "QTL",
+			"curr_name": "Quatloo"
+		},
+		{
+			"curr_code": "QTUM",
+			"curr_name": "Qtum"
+		},
+		{
+			"curr_code": "QUICK",
+			"curr_name": "Quickswap"
+		},
+		{
+			"curr_code": "QWARK",
+			"curr_name": "Qwark"
+		},
+		{
+			"curr_code": "R",
+			"curr_name": "Revain"
+		},
+		{
+			"curr_code": "RADS",
+			"curr_name": "Radium"
+		},
+		{
+			"curr_code": "RAIN",
+			"curr_name": "Condensate"
+		},
+		{
+			"curr_code": "RBIES",
+			"curr_name": "Rubies"
+		},
+		{
+			"curr_code": "RBX",
+			"curr_name": "Ripto-Bux"
+		},
+		{
+			"curr_code": "RBY",
+			"curr_name": "RubyCoin"
+		},
+		{
+			"curr_code": "RCN",
+			"curr_name": "Ripio-Credit-Network"
+		},
+		{
+			"curr_code": "RDD",
+			"curr_name": "ReddCoin"
+		},
+		{
+			"curr_code": "RDN",
+			"curr_name": "Raiden-Network-Token"
+		},
+		{
+			"curr_code": "REC",
+			"curr_name": "Regalcoin"
+		},
+		{
+			"curr_code": "RED",
+			"curr_name": "Redcoin"
+		},
+		{
+			"curr_code": "REP",
+			"curr_name": "Augur"
+		},
+		{
+			"curr_code": "REQ",
+			"curr_name": "Request-Network"
+		},
+		{
+			"curr_code": "RHOC",
+			"curr_name": "RChain"
+		},
+		{
+			"curr_code": "RIC",
+			"curr_name": "Riecoin"
+		},
+		{
+			"curr_code": "RISE",
+			"curr_name": "Rise"
+		},
+		{
+			"curr_code": "RLC",
+			"curr_name": "RLC-Token"
+		},
+		{
+			"curr_code": "RLT",
+			"curr_name": "RouletteToken"
+		},
+		{
+			"curr_code": "RPX",
+			"curr_name": "Red-Pulse"
+		},
+		{
+			"curr_code": "RRT",
+			"curr_name": "Recovery-Right-Tokens"
+		},
+		{
+			"curr_code": "RUFF",
+			"curr_name": "Ruff"
+		},
+		{
+			"curr_code": "RUNE",
+			"curr_name": "THORChain"
+		},
+		{
+			"curr_code": "RUP",
+			"curr_name": "Rupee"
+		},
+		{
+			"curr_code": "RVT",
+			"curr_name": "Rivetz"
+		},
+		{
+			"curr_code": "SAFEX",
+			"curr_name": "SafeExchangeCoin"
+		},
+		{
+			"curr_code": "SALT",
+			"curr_name": "Salt"
+		},
+		{
+			"curr_code": "SAN",
+			"curr_name": "Santiment-Network-Token"
+		},
+		{
+			"curr_code": "SBD",
+			"curr_name": "Steem-Dollars"
+		},
+		{
+			"curr_code": "SBTC",
+			"curr_name": "Super-Bitcoin"
+		},
+		{
+			"curr_code": "SC",
+			"curr_name": "Siacoin"
+		},
+		{
+			"curr_code": "SEELE",
+			"curr_name": "Seele"
+		},
+		{
+			"curr_code": "SEQ",
+			"curr_name": "Sequence"
+		},
+		{
+			"curr_code": "SHIB",
+			"curr_name": "SHIBA-INU"
+		},
+		{
+			"curr_code": "SHIFT",
+			"curr_name": "SHIFT"
+		},
+		{
+			"curr_code": "SIB",
+			"curr_name": "SIBCoin"
+		},
+		{
+			"curr_code": "SIGMA",
+			"curr_name": "SIGMAcoin"
+		},
+		{
+			"curr_code": "SIGT",
+			"curr_name": "Signatum"
+		},
+		{
+			"curr_code": "SJCX",
+			"curr_name": "Storjcoin-X"
+		},
+		{
+			"curr_code": "SKIN",
+			"curr_name": "SkinCoin"
+		},
+		{
+			"curr_code": "SKY",
+			"curr_name": "Skycoin"
+		},
+		{
+			"curr_code": "SLR",
+			"curr_name": "SolarCoin"
+		},
+		{
+			"curr_code": "SLS",
+			"curr_name": "SaluS"
+		},
+		{
+			"curr_code": "SMART",
+			"curr_name": "SmartCash"
+		},
+		{
+			"curr_code": "SMT",
+			"curr_name": "SmartMesh"
+		},
+		{
+			"curr_code": "SNC",
+			"curr_name": "SunContract"
+		},
+		{
+			"curr_code": "SNGLS",
+			"curr_name": "SingularDTV"
+		},
+		{
+			"curr_code": "SNM",
+			"curr_name": "SONM"
+		},
+		{
+			"curr_code": "SNRG",
+			"curr_name": "Synergy"
+		},
+		{
+			"curr_code": "SNT",
+			"curr_name": "Status-Network-Token"
+		},
+		{
+			"curr_code": "SOC",
+			"curr_name": "All-Sports"
+		},
+		{
+			"curr_code": "SOL",
+			"curr_name": "Solana"
+		},
+		{
+			"curr_code": "SOUL",
+			"curr_name": "Phantasma"
+		},
+		{
+			"curr_code": "SPANK",
+			"curr_name": "SpankChain"
+		},
+		{
+			"curr_code": "SPC",
+			"curr_name": "SpaceChain"
+		},
+		{
+			"curr_code": "SPHR",
+			"curr_name": "Sphere"
+		},
+		{
+			"curr_code": "SPR",
+			"curr_name": "SpreadCoin"
+		},
+		{
+			"curr_code": "SNX",
+			"curr_name": "Synthetix-Network-Token"
+		},
+		{
+			"curr_code": "SRN",
+			"curr_name": "Sirin-Labs-Token"
+		},
+		{
+			"curr_code": "START",
+			"curr_name": "Startcoin"
+		},
+		{
+			"curr_code": "STEEM",
+			"curr_name": "Steem"
+		},
+		{
+			"curr_code": "STK",
+			"curr_name": "STK-Token"
+		},
+		{
+			"curr_code": "STORJ",
+			"curr_name": "Storj"
+		},
+		{
+			"curr_code": "STORM",
+			"curr_name": "Storm"
+		},
+		{
+			"curr_code": "STQ",
+			"curr_name": "Storiqa"
+		},
+		{
+			"curr_code": "STRAT",
+			"curr_name": "Stratis"
+		},
+		{
+			"curr_code": "STX",
+			"curr_name": "Stox"
+		},
+		{
+			"curr_code": "SUB",
+			"curr_name": "Substratum"
+		},
+		{
+			"curr_code": "SWFTC",
+			"curr_name": "SwftCoin"
+		},
+		{
+			"curr_code": "SWIFT",
+			"curr_name": "Bitswift"
+		},
+		{
+			"curr_code": "SWT",
+			"curr_name": "Swarm-City"
+		},
+		{
+			"curr_code": "SYNX",
+			"curr_name": "Syndicate"
+		},
+		{
+			"curr_code": "SYS",
+			"curr_name": "SysCoin"
+		},
+		{
+			"curr_code": "TAAS",
+			"curr_name": "Taas"
+		},
+		{
+			"curr_code": "TAU",
+			"curr_name": "Lamden"
+		},
+		{
+			"curr_code": "TCC",
+			"curr_name": "The-ChampCoin"
+		},
+		{
+			"curr_code": "TFL",
+			"curr_name": "True-Flip"
+		},
+		{
+			"curr_code": "THC",
+			"curr_name": "HempCoin"
+		},
+		{
+			"curr_code": "THETA",
+			"curr_name": "Theta-Token"
+		},
+		{
+			"curr_code": "TIME",
+			"curr_name": "Time"
+		},
+		{
+			"curr_code": "TIX",
+			"curr_name": "Blocktix"
+		},
+		{
+			"curr_code": "TKN",
+			"curr_name": "TokenCard"
+		},
+		{
+			"curr_code": "TKR",
+			"curr_name": "Trackr"
+		},
+		{
+			"curr_code": "TKS",
+			"curr_name": "Tokes"
+		},
+		{
+			"curr_code": "TNB",
+			"curr_name": "Time-New-Bank"
+		},
+		{
+			"curr_code": "TNT",
+			"curr_name": "Tierion"
+		},
+		{
+			"curr_code": "TOA",
+			"curr_name": "ToaCoin"
+		},
+		{
+			"curr_code": "TRAC",
+			"curr_name": "OriginTrail"
+		},
+		{
+			"curr_code": "TRC",
+			"curr_name": "Terracoin"
+		},
+		{
+			"curr_code": "TRCT",
+			"curr_name": "Tracto"
+		},
+		{
+			"curr_code": "TRIBE",
+			"curr_name": "Tribe"
+		},
+		{
+			"curr_code": "TRIG",
+			"curr_name": "Triggers"
+		},
+		{
+			"curr_code": "TRST",
+			"curr_name": "Trustcoin"
+		},
+		{
+			"curr_code": "TRUE",
+			"curr_name": "TrueChain"
+		},
+		{
+			"curr_code": "TRUST",
+			"curr_name": "TrustPlus"
+		},
+		{
+			"curr_code": "TRX",
+			"curr_name": "Tronix"
+		},
+		{
+			"curr_code": "TUSD",
+			"curr_name": "TrueUSD"
+		},
+		{
+			"curr_code": "TX",
+			"curr_name": "TransferCoin"
+		},
+		{
+			"curr_code": "UBQ",
+			"curr_name": "Ubiq"
+		},
+		{
+			"curr_code": "UKG",
+			"curr_name": "UnikoinGold"
+		},
+		{
+			"curr_code": "ULA",
+			"curr_name": "Ulatech"
+		},
+		{
+			"curr_code": "UNB",
+			"curr_name": "UnbreakableCoin"
+		},
+		{
+			"curr_code": "UNI",
+			"curr_name": "Uniswap"
+		},
+		{
+			"curr_code": "UNITY",
+			"curr_name": "SuperNET"
+		},
+		{
+			"curr_code": "UNO",
+			"curr_name": "Unobtanium"
+		},
+		{
+			"curr_code": "UNY",
+			"curr_name": "Unity-Ingot"
+		},
+		{
+			"curr_code": "UP",
+			"curr_name": "UpToken"
+		},
+		{
+			"curr_code": "URO",
+			"curr_name": "Uro"
+		},
+		{
+			"curr_code": "USDT",
+			"curr_name": "Tether"
+		},
+		{
+			"curr_code": "UST",
+			"curr_name": "TerraUSD"
+		},
+		{
+			"curr_code": "UTK",
+			"curr_name": "UTrust"
+		},
+		{
+			"curr_code": "VEE",
+			"curr_name": "BLOCKv"
+		},
+		{
+			"curr_code": "VEN",
+			"curr_name": "VeChain"
+		},
+		{
+			"curr_code": "VERI",
+			"curr_name": "Veritaseum"
+		},
+		{
+			"curr_code": "VET",
+			"curr_name": "VeChain"
+		},
+		{
+			"curr_code": "VIA",
+			"curr_name": "Viacoin"
+		},
+		{
+			"curr_code": "VIB",
+			"curr_name": "Viberate"
+		},
+		{
+			"curr_code": "VIBE",
+			"curr_name": "Vibe"
+		},
+		{
+			"curr_code": "VIVO",
+			"curr_name": "VIVO"
+		},
+		{
+			"curr_code": "VOISE",
+			"curr_name": "Voise"
+		},
+		{
+			"curr_code": "VOX",
+			"curr_name": "Voxels"
+		},
+		{
+			"curr_code": "VPN",
+			"curr_name": "VPNCoin"
+		},
+		{
+			"curr_code": "VRC",
+			"curr_name": "Vericoin"
+		},
+		{
+			"curr_code": "VRM",
+			"curr_name": "Verium"
+		},
+		{
+			"curr_code": "VRS",
+			"curr_name": "Veros"
+		},
+		{
+			"curr_code": "VSL",
+			"curr_name": "vSlice"
+		},
+		{
+			"curr_code": "VTC",
+			"curr_name": "Vertcoin"
+		},
+		{
+			"curr_code": "VTR",
+			"curr_name": "vTorrent"
+		},
+		{
+			"curr_code": "WABI",
+			"curr_name": "WaBi"
+		},
+		{
+			"curr_code": "WAN",
+			"curr_name": "Wanchain"
+		},
+		{
+			"curr_code": "WAVES",
+			"curr_name": "Waves"
+		},
+		{
+			"curr_code": "WAX",
+			"curr_name": "Wax-Token"
+		},
+		{
+			"curr_code": "WBTC",
+			"curr_name": "Wrapped Bitcoin"
+		},
+		{
+			"curr_code": "WCT",
+			"curr_name": "Waves-Community"
+		},
+		{
+			"curr_code": "WDC",
+			"curr_name": "WorldCoin"
+		},
+		{
+			"curr_code": "WGO",
+			"curr_name": "WavesGo"
+		},
+		{
+			"curr_code": "WGR",
+			"curr_name": "Wagerr"
+		},
+		{
+			"curr_code": "WINGS",
+			"curr_name": "Wings"
+		},
+		{
+			"curr_code": "WPR",
+			"curr_name": "WePower"
+		},
+		{
+			"curr_code": "WTC",
+			"curr_name": "Walton"
+		},
+		{
+			"curr_code": "WTT",
+			"curr_name": "Giga-Watt-Token"
+		},
+		{
+			"curr_code": "XAS",
+			"curr_name": "Asch"
+		},
+		{
+			"curr_code": "XAUR",
+			"curr_name": "Xaurum"
+		},
+		{
+			"curr_code": "XBC",
+			"curr_name": "Bitcoin-Plus"
+		},
+		{
+			"curr_code": "XBY",
+			"curr_name": "XtraBYtes"
+		},
+		{
+			"curr_code": "XCN",
+			"curr_name": "Cryptonite"
+		},
+		{
+			"curr_code": "XCP",
+			"curr_name": "Counterparty"
+		},
+		{
+			"curr_code": "XDN",
+			"curr_name": "DigitalNote"
+		},
+		{
+			"curr_code": "XEL",
+			"curr_name": "Elastic"
+		},
+		{
+			"curr_code": "XEM",
+			"curr_name": "NEM"
+		},
+		{
+			"curr_code": "NEM",
+			"curr_name": "NEM"
+		},
+		{
+			"curr_code": "XHV",
+			"curr_name": "Haven-Protocol"
+		},
+		{
+			"curr_code": "XID",
+			"curr_name": "Sphere-Identity"
+		},
+		{
+			"curr_code": "XLM",
+			"curr_name": "Stellar"
+		},
+		{
+			"curr_code": "XMG",
+			"curr_name": "Magi"
+		},
+		{
+			"curr_code": "XMR",
+			"curr_name": "Monero"
+		},
+		{
+			"curr_code": "XMT",
+			"curr_name": "Metal"
+		},
+		{
+			"curr_code": "XMY",
+			"curr_name": "Myriadcoin"
+		},
+		{
+			"curr_code": "XPM",
+			"curr_name": "Primecoin"
+		},
+		{
+			"curr_code": "XRL",
+			"curr_name": "Rialto"
+		},
+		{
+			"curr_code": "XRP",
+			"curr_name": "Ripple"
+		},
+		{
+			"curr_code": "XSPEC",
+			"curr_name": "Spectrecoin"
+		},
+		{
+			"curr_code": "XST",
+			"curr_name": "Stealthcoin"
+		},
+		{
+			"curr_code": "XTZ",
+			"curr_name": "Tezos"
+		},
+		{
+			"curr_code": "XUC",
+			"curr_name": "Exchange-Union"
+		},
+		{
+			"curr_code": "XVC",
+			"curr_name": "Vcash"
+		},
+		{
+			"curr_code": "XVG",
+			"curr_name": "Verge"
+		},
+		{
+			"curr_code": "XWC",
+			"curr_name": "WhiteCoin"
+		},
+		{
+			"curr_code": "XZC",
+			"curr_name": "ZCoin"
+		},
+		{
+			"curr_code": "XZR",
+			"curr_name": "ZrCoin"
+		},
+		{
+			"curr_code": "YEE",
+			"curr_name": "Yee"
+		},
+		{
+			"curr_code": "YOYOW",
+			"curr_name": "YOYOW"
+		},
+		{
+			"curr_code": "ZCC",
+			"curr_name": "ZcCoin"
+		},
+		{
+			"curr_code": "ZCL",
+			"curr_name": "Zclassic"
+		},
+		{
+			"curr_code": "ZCO",
+			"curr_name": "Zebi"
+		},
+		{
+			"curr_code": "ZEC",
+			"curr_name": "Zcash"
+		},
+		{
+			"curr_code": "ZEN",
+			"curr_name": "ZenCash"
+		},
+		{
+			"curr_code": "ZET",
+			"curr_name": "Zetacoin"
+		},
+		{
+			"curr_code": "ZIL",
+			"curr_name": "Zilliqa"
+		},
+		{
+			"curr_code": "ZLA",
+			"curr_name": "Zilla"
+		},
+		{
+			"curr_code": "ZRX",
+			"curr_name": "0x"
+		}
+	]
+ }
+
+export default currData;
