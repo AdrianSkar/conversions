@@ -12,11 +12,24 @@ body {
 h1 {
 	color: #2fc4be;
 	justify-content: center;
+	font-size: 3rem;
 }
 
 label {
 	color: #f6b633;
+	font-size: 1.5rem;
+	display: block;
 }
+
+select {
+	margin-top: 10px;
+}
+
+input {
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
 
 .conversion {
 	display: flex;
@@ -45,8 +58,8 @@ select {
 }
 
 #convert-btn {
-	background-color: #2fc4be;
-	color: white;
+	background-color: #f6b633;
+	color: black;
 	padding: 5px 10px;
 	border-radius: 5px;
 }
@@ -58,4 +71,10 @@ select {
 	border: 1px solid white;
 	padding: 10px 20px 40px;
 	border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+html {
+	font-size: 14px;
+}
 }
