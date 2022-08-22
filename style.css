@@ -54,7 +54,7 @@ select {
     width: 80px;
 }
 .convert-amount {
-	margin-top: 10%;
+	margin-top: 20%;
 }
 
 #convert-btn {
@@ -62,6 +62,7 @@ select {
 	color: black;
 	padding: 5px 10px;
 	border-radius: 5px;
+	font-size: 20px;
 }
 
 #result {
@@ -75,6 +76,6 @@ select {
 
 @media only screen and (max-width: 768px) {
 html {
-	font-size: 14px;
+	font-size: .8em;
 }
 }
