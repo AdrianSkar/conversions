@@ -55,22 +55,35 @@ function getData(action, evt) {
 				];
 
 				// Get data from exchange API to convert
-				let exURL = `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${baseCur.value}&to_currency=${targetCur.value}&apikey=${content.key}`;
+				// let exURL = `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${baseCur.value}&to_currency=${targetCur.value}&apikey=${content.key}`;
+				let exURL = `https://www.alphavantage.co/query?function=FX_DAILY&from_symbol=${baseCur.value}&to_symbol=${targetCur.value}&outputsize=full&apikey=${content.key}`;
 				// console.log(exURL);
 
 				fetch(exURL)
 					.then(response => response.json())
 					.then(data => {
-						// Get rate from object prop:
-						// 	data['Realtime Currency Exchange Rate']['5. Exchange Rate']
-						let rate =
-							data['Realtime Currency Exchange Rate']['5. Exchange Rate'];
+						// console.log(data);
+						// Get the object holding the latest rates data
+						let historical = data['Time Series FX (Daily)'];
+
+						// Find latest date available
+						let latestDate = '2022-10-01';
+						for (const date in historical) {
+							if (date > latestDate) {
+								latestDate = date;
+							}
+						}
+						// Select closing price/rate value from latest available object
+						let rate = historical[latestDate]['4. close'];
+						console.log(
+							`The latest data we have available is from ${latestDate} at rate ${rate}`
+						);
+
 						resultDiv.innerHTML = `Result: ${(inputAmt.value * rate).toFixed(
 							2
 						)} (rate: ${rate})`;
 					})
 					.catch(err => console.error(err));
-
 			} else {
 				// User wants to get data
 				let apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${action}&interval=5min&apikey=${content.key}`;
